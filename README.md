@@ -2,22 +2,27 @@ Steps to Run the Messaging Web App Project
 
 Step 1: Clone the Repository
 Clone the repository to your local machine by running the following command in your terminal:
+
     git clone https://github.com/SujalGupta23/messaging-web-app.git
 
 
 Step 2: Install Backend Dependencies
 Navigate to the backend folder:
+
     cd messaging-web-app/backend
     
 Install the necessary dependencies for the backend:
+
     npm install
 
 
 Step 3: Install Frontend Dependencies
 After installing backend dependencies, go to the root folder and then to the frontend folder:
+
     cd ../frontend
     
 Install the required frontend dependencies:
+
     npm install
 
     
@@ -28,16 +33,19 @@ Open the csvImporter.py file (located in the backend folder) and update the data
 
 Step 5: Initialize the Database
 Go back to the backend folder and run the following command to start the server and initialize the database:
+
     node server.js
 
     
 Step 6: Import CSV Data to the Database
 Open another terminal window, navigate to the backend folder, and run the csvImporter.py script to import all the messages from the CSV file into your local database:
+
     python csvImporter.py
 
 
 Step 7: Start the Frontend
 Open a third terminal window, navigate to the frontend folder, and run the following command to start the frontend:
+
     npm run dev
 
 
